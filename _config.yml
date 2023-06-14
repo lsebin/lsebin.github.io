@@ -1,4 +1,5 @@
 
+
 title: Sebin Lee
 author: Sebin Lee
 url: https://lsebin.github.io # root address of the site
@@ -6,12 +7,15 @@ description: > # description of the site (multiple lines allowed)
   Hi, this is Sebin. I am a rising Senior studying Computer Science at University of Pennsylvania.
   I am currently doing a research on Reinforcement Learning. 
   If you click the name of the project, you will be redirected to Github repository/Colab/PDF/etc for that project. 
-
+  
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+# When testing local, uncomment the below, but don't forget to 
+# change back to remote_theme when committing
+#theme: moonwalk
 remote_theme: abhinavs/moonwalk
 
 theme_config:
