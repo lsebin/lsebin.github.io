@@ -1,0 +1,95 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: Github
+    url: https://github.com/lsebin
+
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/sebin-lee-/
+
+  - title: Resume
+    url: https://drive.google.com/file/d/1CNd80z3NUf-wsy1B_VLUVFSbdOLNw-Wm/view?usp=sharing
+
+
+
+project_entries:
+  - title: CineScore
+    url: https://github.com/lsebin/CineScore
+    desc: You can search movies here
+
+  - title: Matcha
+    url: https://github.com/lsebin/MiniFacebook
+    desc: Get "Matcha"ed to your friends
+
+  - title: MCNN
+    url: https://github.com/lsebin/MCNN_
+    desc: Proving the efficiency of neural network modle in RL setting
+
+  # - title: Project 4
+  #   url: overview-post
+  #   desc: This project uses highlight markup, configured in _data/home.yml
+  #   highlight: WIP
+
+  # - title: Project 5
+  #   url: overview-post
+  #   desc: Moonwalk also has horizontal list (used in header and footer)
+  #   highlight: WIP
+
+  # - title: Project 6
+  #   url: overview-post
+  #   desc: It also has a scalable vertical list (in case you need it)
+
+old_project_entries:
+  - title: arXiv Prediction Model
+    url: https://colab.research.google.com/drive/1I7Y-bM2X3grxpm2i3UnBvleioWxColhc?usp=sharing
+    desc: NLP Big Data Analytics Model employing RNN and simplet5
+
+  - title: PennOS
+    url: https://drive.google.com/file/d/1GHOyKsb62kEGcCeg1IVCR0lqvkA1Dy6u/view?usp=sharing
+    desc: Built Operating System
+
+  - title: Snake
+    url: https://github.com/lsebin/Snake-Game
+    desc: Snake game, but advanced
+
+
+footer_entries:
+  # - title: abhinav's homepage
+  #   url: https://www.abhinav.co
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
